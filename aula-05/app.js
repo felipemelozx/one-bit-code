@@ -19,6 +19,9 @@ function criarObjeto(nomeProduto, quantidade) {
     }
 }
 
+function listaItens(){
+    return alert(estoque)
+}
 menu()
 criarNovoProduto()
 console.log(estoque)
